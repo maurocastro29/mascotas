@@ -1,0 +1,30 @@
+<div class="card">
+    <p-carousel
+        [value]="products"
+        [numVisible]="1"
+        [numScroll]="1"
+        [circular]="true"
+        [autoplayInterval]="3000"
+        [responsiveOptions]="responsiveOptions"
+        >
+            <ng-template let-product #item>
+                <div class="rounded-lg m-2 p-4">
+                    <div class="mb-4">
+                        <div class="relative mx-auto">
+                            <img
+                                src="/images/banner/{{product.image}}"
+                                [alt]="product.name"
+                                class="w-full rounded-lg" />
+                            
+                        </div>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span>
+                            <p-button icon="pi pi-heart" severity="primary" [outlined]="false" />
+                            <p-button icon="pi pi-shopping-cart" styleClass="ml-2" />
+                        </span>
+                    </div>
+                </div>
+            </ng-template>
+    </p-carousel>
+</div>
