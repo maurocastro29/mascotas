@@ -1,8 +1,8 @@
 .color-border{
-    border-radius: 0px 0px 30px 30px;
+    border-radius: 0px 0px 10px 10px;
     border-color: #2F1096;
 }
 .border-header{
     border-bottom: 5px solid var(--secondary);
-    border-radius: 0px 0px 30px 30px;
+    border-radius: 0px 0px 15px 15px;
 }

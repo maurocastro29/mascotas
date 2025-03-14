@@ -7,6 +7,8 @@ import { ProductosComponent } from "./components/productos/productos.component";
 import { CommonModule } from '@angular/common';
 import { PersonalComponent } from "./components/personal/personal.component";
 import { FooterComponent } from "./components/footer/footer.component";
+import { GaleriaComponent } from "./components/galeria/galeria.component";
+import { ContactoComponent } from "./components/contacto/contacto.component";
 
 @Component({
   selector: 'app-root',
@@ -19,8 +21,10 @@ import { FooterComponent } from "./components/footer/footer.component";
     ProductosComponent,
     CommonModule,
     PersonalComponent,
-    FooterComponent
-  ],
+    FooterComponent,
+    GaleriaComponent,
+    ContactoComponent
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
